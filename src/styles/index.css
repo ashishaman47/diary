@@ -1,0 +1,45 @@
+* {
+  border-radius: 10px !important;
+}
+
+.jumbotron {
+  border-radius: 5px !important;
+  /* background-color: #343a40; */
+  background-color: #092b40;
+  color: #fff;
+  font-family: 'Lemonada', cursive;
+}
+
+.jazz {
+  border-radius: 0px !important;
+  /* background-color: #343a40; */
+  background-color: #010813;
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+  padding: 60px;
+  margin-bottom: 30px;
+}
+
+.no-border {
+  box-shadow: none;
+  outline: none;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.no-border:focus {
+  border-bottom: 1.5px solid #007bff;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    max-height: 100px;
+  }
+  .username {
+    text-align: left;
+  }
+}
